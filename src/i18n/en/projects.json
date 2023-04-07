@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "title": "Projects",
+    "header": "Projects",
+    "add":"Add project",
+    "edit":"Edit project",
+    "show":"Projects Detail",
+    "image": "",
+    "projectName": "NAME",
+    "accessKey": "accessKey",
+    "region": "REGION",
+    "secretKey": "secretKey",
+    "isActive": "STATUS",
+    "apiKey": "apiKey",
+    "userId": "userId",
+    "configQuantity": "TOTAL ENVIRONMENT",
+    "updatedAt": "UPDATE DATE"
+    
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bundles": {
+    "title": "Bundles",
+    "add":"Add Bundle",
+    "edit":"Edit Bundle",
+    "show":"Bundles Detail",
+    "name": "NAME",
+    "support": "SUPPORT",
+    "price": "PRICE",
+    "power": "POWER",
+    "type": "TYPE",
+    "cpu": "CPU",
+    "ram": "RAM (GB)",
+    "monthlyTransfer": "MONTHLY TRANSFER (GB)",
+    "code": "id"
+    
+  }
+}

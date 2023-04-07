@@ -1,0 +1,10 @@
+{
+  "primary-dialects": {
+    "vi": "vi-VN",
+    "en": "en-US"
+  },
+  "language-names": {
+    "vi-VN": ["Tiếng Việt", "Vietnamese"],
+    "en-US": ["English (US)", "English (US)"]
+  }
+}

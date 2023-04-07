@@ -1,0 +1,107 @@
+{
+  "name": "cloud-admin-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/plots": "^1.0.9",
+    "@reduxjs/toolkit": "^1.7.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^5.0.5",
+    "axios": "^0.24.0",
+    "braft-editor": "^2.3.9",
+    "braft-utils": "^3.0.12",
+    "crypto": "^1.0.1",
+    "firebase": "^9.6.1",
+    "i18next": "^21.6.0",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "immutability-helper": "^3.1.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-html-parser": "^5.3.3",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-avatar-editor": "^12.0.0",
+    "react-color": "^2.19.3",
+    "react-dnd": "^15.1.1",
+    "react-dnd-html5-backend": "^15.1.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-jsx-parser": "^1.29.0",
+    "react-phone-input-2": "^2.15.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-style-tag": "^2.0.5",
+    "react-waypoint": "^10.1.0",
+    "read-excel-file": "^5.3.3",
+    "redux": "^4.1.2",
+    "slug": "^5.2.0",
+    "styled-components": "^5.3.3",
+    "use-places-autocomplete": "^1.11.0",
+    "web-vitals": "^1.0.1",
+    "xregexp": "^5.1.1",
+    "yoast-components": "^5.24.0",
+    "yoastseo": "^1.91.0"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=localdev craco start",
+    "start": "craco --openssl-legacy-provider start",
+    "build": "DISABLE_ESLINT_PLUGIN=true craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .tsx,.ts,.js,.jsx src/ --fix",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@craco/craco": "^6.4.3",
+    "antd-dayjs-webpack-plugin": "^1.0.6",
+    "babel-plugin-import": "^1.13.3",
+    "craco-babel-loader": "^0.1.4",
+    "craco-less": "^1.18.0",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "plopfile-generate": "^6.0.16",
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^13.0.0",
+    "worker-loader": "^3.0.8"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  }
+}

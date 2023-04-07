@@ -1,0 +1,32 @@
+{
+  "users": {
+    "orders": "Past orders",
+    "generalInformation": "General information",
+    "createdAt": "Join date",
+    "add": "Add user",
+    "header": "Users",
+    "addButton": "Add user",
+    "editPage": "Edit user",
+    "createPage": "Add user",
+    "generalInfo": "General information",
+    "AccountName": "Name",
+    "username": "Username",
+    "phone": "Phone",
+    "password": "Password",
+    "lastName": "Last name",
+    "email": "Email",
+    "role": "Role",
+    "confirmPassword": "Confirm password",
+    "id": "User ID",
+    "status": "Status",
+    "isGenie": "Is genie",
+    "edit": "Edit",
+    "firstName": "First name",
+    "isActive": "Is Active",
+    "avatar": "Avatar",
+    "fullName": "Full Name",
+    "empty": {
+      "title": "Empty user"
+    }
+  }
+}

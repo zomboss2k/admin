@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#ffffff" id="svg_1" height="50" width="796.99994" y="0.5" x="1.50004" fill="#fff"/>
+  <ellipse ry="11" rx="12" id="svg_5" cy="26.5" cx="769.5" stroke="#ffffff" fill="#cccccc"/>
+  <rect id="svg_6" height="18" width="70" y="14.5" x="19.5" stroke="#ffffff" fill="#cccccc"/>
+  <path stroke="#ffffff" id="svg_8" d="m723.5925,18.64884l0,3.66854l3.88878,0l1.90081,8.2719l10.70161,0l3.5088,-12.57687l-16.63689,0l0,0.63633l-3.3631,0l0,0.0001zm8.88555,16.00563c0,1.30227 -0.70685,2.35794 -1.57876,2.35794s-1.57883,-1.05577 -1.57883,-2.35794s0.70685,-2.35784 1.57883,-2.35784s1.57876,1.05567 1.57876,2.35784zm7.3119,0c0,1.30227 -0.70685,2.35794 -1.57876,2.35794s-1.57883,-1.05577 -1.57883,-2.35794s0.70692,-2.35784 1.57883,-2.35784s1.57876,1.05567 1.57876,2.35784z" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_26" height="146.00001" width="801.00005" y="64.50001" x="-0.49995" fill="#000000"/>
+  <rect stroke="#ffffff" id="svg_27" height="146.00001" width="160.00001" y="230.50001" x="32.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_28" height="146.00001" width="160.00001" y="231.50001" x="398.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_29" height="146.00001" width="160.00001" y="230.50001" x="213.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_30" height="146.00001" width="160.00001" y="231.50001" x="588.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_31" height="146.00001" width="160.00001" y="399.50001" x="34.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_32" height="146.00001" width="160.00001" y="400.50001" x="400.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_33" height="146.00001" width="160.00001" y="399.50001" x="215.5" fill="#cccccc"/>
+  <rect stroke="#ffffff" id="svg_34" height="146.00001" width="160.00001" y="400.50001" x="590.5" fill="#cccccc"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_35" y="139" x="363.5" stroke="#ffffff" fill="#ffffff">Top banner</text>
+ </g>
+</svg>

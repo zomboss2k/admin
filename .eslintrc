@@ -1,0 +1,87 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "plugins": ["react", "react-hooks"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "fetch": true,
+    "navigator": true,
+    "__DEV__": true,
+    "XMLHttpRequest": true,
+    "FormData": true
+  },
+  "rules": {
+    "import/prefer-default-export": 0,
+    "comma-dangle": [1, "always-multiline"],
+    "no-use-before-define": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".json"] }
+    ],
+    "react/destructuring-assignment": 0,
+    "react/require-default-props": 0,
+    "react/forbid-prop-types": 0,
+    "no-unused-vars": [
+      "warn", { "ignoreRestSiblings": true }
+    ],
+    "camelcase": 0,
+    "no-mixed-operators": [
+      "error",
+      {
+        "groups": [
+          ["&", "|", "^", "~", "<<", ">>", ">>>"],
+          ["&&", "||"]
+        ]
+      }
+    ],
+    "no-unused-expressions": [
+      "error",
+      { "allowShortCircuit": true, "allowTernary": true }
+    ],
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/control-has-associated-label": 0,
+    "react/no-danger": 0,
+    "no-shadow": 0,
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-wrap-multilines": [
+      "error",
+      { "declaration": "parens-new-line" }
+    ],
+    "no-param-reassign": [
+      "error",
+      { "props": true, "ignorePropertyModificationsFor": ["state"] }
+    ],
+    "react/prop-types": 0, // ["warn", { "ignore": ["children"] }],
+    "import/no-cycle": 0
+  }
+}

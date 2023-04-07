@@ -1,0 +1,11 @@
+- [Home](/)
+- Getting Started
+  - [Installing](/docs/Installing)
+  - [Usage](/docs/Usage)
+  - [Working Locally](/docs/WorkingLocally)
+- Guide
+  - [Create New Model](/docs/plop-generate)
+  - [Container API](/docs/screen-api)
+  - [Redux & Redux-saga](/docs/redux)
+  - [Components](/docs/components)
+- [API](/api/README)

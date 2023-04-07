@@ -1,0 +1,419 @@
+{
+  "appInfo": {
+    "footer": "Devtify",
+    "name": "Devtify",
+    "copyright": "@Devtify {{year}}. All Right Reserved."
+  },
+  "confirm": {
+    "title": "Are you sure to delete {{name}}",
+    "content": "This action cant be undone."
+  },
+  "error": {
+    "title": "Oops!",
+    "required": "{{field}} is required",
+    "errorUploadFile": "Upload file fail",
+    "requiredFile": "Please upload file",
+    "waitingUpdate": "Waiting for update",
+    "validateType": "Invalid format"
+  },
+  "input": {
+    "category": {
+      "placeholder": "Select Category"
+    },
+    "email": {
+      "name": "Email",
+      "placeholder": "Email",
+      "validateMsg": {
+        "invalid": "Email is invalid",
+        "required": "Please input your email!"
+      }
+    },
+    "password": {
+      "placeholder": "Password",
+      "validateMsg": { "required": "Password is Required" }
+    },
+    "searchProduct": {
+      "label": "Search product",
+      "placeholder": "Search by product name or SKU"
+    },
+    "searchProductCollection": {
+      "label": "Search product collection",
+      "placeholder": "Search by collection name"
+    },
+    "searchProductCategory": {
+      "label": "Search product category",
+      "placeholder": "Search by category name"
+    },
+    "minimumBuyProduct": {
+      "label": "Minimum buying products",
+      "placeholder": "Enter quantity"
+    },
+    "maximumGiftedProduct": {
+      "label": "Maximum gifted products",
+      "placeholder": "Enter quantity"
+    },
+    "maxDiscount": {
+      "label": "Maximum discount (đ)",
+      "placeholder": "Enter max discount"
+    },
+    "maxQuantityPerOrder": {
+      "label": "Max quantity per order",
+      "placeholder": "Enter Max quantity per order"
+    },
+    "discountPercentValue": {
+      "label": "Discount (%)",
+      "placeholder": "%"
+    },
+    "discountMoneyValue": {
+      "label": "Discount (đ)",
+      "placeholder": "Enter discount"
+    },
+    "numberOfBuy": {
+      "label": "Buying quantity",
+      "placeholder": "Enter quantity"
+    },
+    "totalStep": {
+      "label": "Price increase per step",
+      "placeholder": "Enter the price increase per step"
+    },
+    "minQuantity": {
+      "label": "Minimum quantity",
+      "placeholder": "Enter quantity"
+    },
+    "minOrder": {
+      "label": "Lowest order value",
+      "placeholder": "Enter order value"
+    },
+    "maxNumberOfGift": {
+      "label": "Maximum gifts",
+      "placeholder": "Enter quantity"
+    },
+    "maxAmountValueGift": {
+      "label": "Maximum value of gifts",
+      "placeholder": "Enter value"
+    },
+    "searchCustomer": {
+      "label": "Search customer",
+      "placeholder": "Tìm khách hàng theo email, số điện thoại, tên"
+    },
+    "store": {
+      "label": "Store",
+      "placeholder": "Select store"
+    },
+    "customer": {
+      "label": "Customer",
+      "placeholder": "Select Customer",
+      "validateMsg": {
+        "required": "Please select a customer"
+      }
+    },
+    "customerAddress": {
+      "label": "Customer Address",
+      "placeholder": "Select Customer Address",
+      "validateMsg": {
+        "required": "Please select a customer address"
+      }
+    },
+    "district": {
+      "label": "District",
+      "placeholder": "Select District"
+    },
+    "ward": {
+      "label": "Ward",
+      "placeholder": "Select Ward"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Select City"
+    },
+    "voucher": {
+      "label": "Voucher",
+      "placeholder": "Enter voucher"
+    },
+    "giftNote": {
+      "label": "Gift Note",
+      "placeholder": "Write your greetings here"
+    },
+    "note": {
+      "label": "Note",
+      "placeholder": "If you want to leave some notes",
+      "validateMsg": {
+        "required": "Note is required",
+        "invalid": "Note is invalid"
+      }
+    },
+    "businessName": {
+      "label": "Business name",
+      "placeholder": "Business name",
+      "validateMsg": {
+        "required": "Business name is required"
+      }
+    },
+    "taxCode": {
+      "label": "Tax code",
+      "placeholder": "Tax code",
+      "validateMsg": {
+        "required": "Tax code is required"
+      }
+    },
+    "addressName": {
+      "label": "Address Name",
+      "placeholder": "Address Name (ex: Office, House, etc.)",
+      "validateMsg": {
+        "required": "Address Name is required"
+      }
+    },
+    "address": {
+      "label": "Address",
+      "placeholder": "Address",
+      "validateMsg": {
+        "required": "Address is required"
+      }
+    },
+    "address2": {
+      "label": "Address 2",
+      "placeholder": "Address 2",
+      "validateMsg": {
+        "required": "Address is required"
+      }
+    },
+    "additionalAddress": {
+      "label": "Additional address",
+      "placeholder": "Building, apartment, etc.",
+      "validateMsg": {
+        "required": "Address is required"
+      }
+    },
+    "invoiceEmail": {
+      "label": "Invoice email",
+      "placeholder": "Invoice email",
+      "validateMsg": {
+        "required": "Invoice email is required",
+        "invalid": "Invoice email is invalid"
+      }
+    },
+    "phone": {
+      "label": "Phone number",
+      "placeholder": "Phone number",
+      "validateMsg": {
+        "required": "Phone number is required",
+        "invalid": "Phone number is invalid"
+      }
+    },
+    "paymentMethod": {
+      "label": "Payment Method",
+      "placeholder": "Payment Method",
+      "validateMsg": {
+        "required": "Please select a payment method"
+      }
+    },
+    "saleChanel": {
+      "label": "Sale Chanel",
+      "placeholder": "Sale Chanel",
+      "validateMsg": {
+        "required": "Please select a sale chanel"
+      }
+    },
+    "shippingMethod": {
+      "label": "Shipping Method",
+      "placeholder": "Shipping Method",
+      "validateMsg": {
+        "required": "Please select a shipping Method"
+      }
+    },
+    "variant": {
+      "validateMsg": {
+        "required": "Please select a variant"
+      }
+    }
+  },
+  "common": {
+    "searchPlaceholder": "Type something...",
+    "active": "Active",
+    "inactive": "In Active",
+    "sort": "Sort",
+    "recordPerPage": "  Record per page",
+    "results": "{{total}} results found",
+    "type": "Type"
+  },
+  "buttonType": {
+    "solid": "Solid",
+    "border": "Border"
+  },
+  "button": {
+    "copiedToClipboard": "Copied to clipboard",
+    "shortenLink": "Shorten link",
+    "viewQRCode": "View QR code",
+    "viewOnWebsite": "View on website",
+    "takeDownReview": "Take the review down",
+    "upload": "Upload",
+    "addCol": "Add col",
+    "addRow": "Add row",
+    "remove": "Remove",
+    "selected": "Selected",
+    "approve": "Approve",
+    "clickToUpload": "Click to upload",
+    "copy": "Copy",
+    "yes": "Yes",
+    "no": "No",
+    "uploadImage": "Upload",
+    "create": "Create",
+    "add": "Add",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "ok": "Ok",
+    "search": "Search",
+    "reset": "Reset",
+    "resetMyPassword": "Reset password",
+    "submit": "Submit",
+    "call": "Call",
+    "loadMore": "Load more...",
+    "sentInvite": "Send invitation",
+    "resendInvite": "Resend invite",
+    "editProfile": "Edit profile",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "filter": "Filter",
+    "clearFilter": "Clear",
+    "addToCart": "Add to cart",
+    "addedToCart": "Added to cart",
+    "updateToCart": "Update to cart",
+    "apply": "Apply",
+    "subscribe": "Subscribe",
+    "change": "Change",
+    "confirm": "Confirm",
+    "placeYourOrder": "Place your order",
+    "accept": "Accept",
+    "reject": "Reject",
+    "changePassword": "Change password",
+    "duplicate": "Clone new",
+    "reOpen": "Open again",
+    "setDefault": "Set main",
+    "view": "View",
+    "print": "Print",
+    "select": "Select",
+    "addProduct": "Add product",
+    "applyProduct": "Apply",
+    "addMore": "Add more",
+    "addMoreRulePromotion": "Add more",
+    "preview": "Preview",
+    "addNewCustomer": "Add New Customer",
+    "addCustomerAddress": "Add Customer Address",
+    "selectCustomerAddress": "Select Customer Address",
+    "searchVariant": "Search variants",
+    "viewAllPromotions": "View All Promotions",
+    "condition": "Condition",
+    "unApplyPromotion": "Bỏ chọn",
+    "import": "Import",
+    "importCombo": "Import Combo"
+  },
+  "login": {
+    "title": "Login",
+    "rememberMe": "Remember me",
+    "loginBtn": "Sign In",
+    "yourEmail": "Your email",
+    "resetPassword": "Reset password",
+    "password": "Password"
+  },
+  "forgotPassword": {
+    "title": "Forgot password",
+    "subtitle": "Please enter your email address to reset your password. You will receive the reset password link.",
+    "submit": "Resend the password link"
+  },
+  "resetPassword": {
+    "title": "Recover password",
+    "subtitle": "Please enter new password",
+    "submit": "Confirm password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password"
+  },
+  "accounts": {
+    "header": "Accounts"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "users": {
+    "generalInformation": "General information",
+    "createdAt": "Join date",
+    "header": "User management",
+    "addButton": "Add user",
+    "id": "User ID",
+    "fullName": "Full name",
+    "email": "Email",
+    "isActive": "Status",
+    "role": "Role",
+    "create": "Add new user",
+    "edit": "Edit user",
+    "accountName": "Account name",
+    "status": "Status",
+    "designation": "Designation",
+    "name": "Name",
+    "accessType": "Access type",
+    "domainName": "Domain name",
+    "domainLogin": "Domain login",
+    "accessibleOutlets": "Accessible outlets",
+    "generalInfo": "General information",
+    "extraData": "Extra data",
+    "username": "Username",
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "confirmPassword": "Confirm password",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "birthday": "Birthday",
+    "changePassword": "Change password",
+    "logoutUser": "Logout user",
+    "currentPassword": "Current password"
+  },
+  "note": "Note",
+  "filter": "Filter",
+  "contactUs": {
+    "title": "Contact us",
+    "corporation": "Devtify Corporation",
+    "corporationDesc": "213A Nam Ky Khoi Nghia Street\nVo Thi Sau Ward, District 3\nHo Chi Minh City, Vietnam ",
+    "phone": "",
+    "email": "support@devtify.com",
+    "setUpAppointment": "Set up an appointment",
+    "workingHours": "Monday — Friday \n09:00 AM — 06:00 PM (GMT+7)",
+    "workingHoursDesc": "You can leave your information in the form, our expert\nwill contact you back.\n\nOr you can actively set up an appointment with us."
+  },
+  "sideBar": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "users": "Users",
+    "settings": "Settings"
+  },
+  "header": {
+    "profile": "Profile",
+    "pharmacy": "Pharmacy info",
+    "logout": "Logout"
+  },
+  "placeholder": {
+    "undefined": "Select..."
+  },
+  "popup": {
+    "alertDelete": "Delete",
+    "alertDeleteDes": "Do you want to delete {{customMessage}}?",
+    "selectNewLocale": "Select new locale"
+  },
+  "text": {
+    "id": "ID",
+    "or": "OR",
+    "empty": "Empty",
+    "googleAddress": "Google address(use detect latitude, longitude)"
+  },
+  "graphData": {
+    "origin": "Origin",
+    "title": "Title",
+    "keyword": "Keyword",
+    "description": "Description"
+  },
+  "edit": "Edit",
+  "templateImportFile": "Template For Import File"
+}

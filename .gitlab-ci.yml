@@ -1,0 +1,59 @@
+stages:
+  - build
+  - noti_success
+
+variables:
+  GIT_CLEAN_FLAGS: none # disable git clean
+
+deploy-product:
+  stage: build
+  only:
+    - main
+  script:
+    # Set PATH
+    - export PATH=$PATH:/usr/bin/npm
+    # Install dependencies
+    - yarn
+    - cat $PROD_ENV > .env
+    - yarn build
+    # - npm install -g serverless
+    # Build App
+    # - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    # - unzip awscliv2.zip
+    # - sudo ./aws/install
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws configure set default.region ap-southeast-1
+    - aws s3 sync build/ s3://$S3_NAME/release --delete --acl public-read
+    - aws cloudfront create-invalidation --distribution-id $PROD_CLOUDFRONT_DIST --paths "/*"
+
+deploy-dev:
+  stage: build
+  only:
+    - dev
+  script:
+    # Set PATH
+    - export PATH=$PATH:/usr/bin/npm
+    # Install dependencies
+    - yarn
+    - cat $DEV_ENV > .env
+    - yarn build
+    # - npm install -g serverless
+    # Build App
+    # - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    # - unzip awscliv2.zip
+    # - sudo ./aws/install
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws configure set default.region ap-southeast-1
+    - aws s3 sync build/ s3://$S3_NAME/dev --delete --acl public-read
+    - aws cloudfront create-invalidation --distribution-id $DEV_CLOUDFRONT_DIST --paths "/*"
+
+notifycation:
+  stage: noti_success
+  script:
+    - curl -s -X POST $BOT_WORKER -d text="$(echo -e "✌️✌️✌️✌️ $CI_PROJECT_NAME ✌️✌️✌️✌️ \nSuccess Build !!!!\nIn branch $CI_COMMIT_BRANCH\nBy $GITLAB_USER_NAME.\nCommit $CI_COMMIT_MESSAGE\n-\n.")"
+  when: on_success
+  only:
+    - dev
+    - main

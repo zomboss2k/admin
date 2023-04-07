@@ -1,0 +1,8 @@
+{
+    "instance": {
+      "name": "NAME",
+      "ip": "IP",
+      "sshKey": "SSH Key",
+      "isActive": "POWER"
+    }
+  }

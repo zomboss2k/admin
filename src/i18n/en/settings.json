@@ -1,0 +1,67 @@
+{
+  "header": "Settings",
+  "banners": {
+    "title": "Home banner",
+    "description": "Config banner at home page"
+  },
+  "generalConfiguration": {
+    "title": "General configuration",
+    "description": "Logo, business, address, etc."
+  },
+  "headerMenu": {
+    "title": "Header menu",
+    "description": "Menu of website's header"
+  },
+  "footerMenu": {
+    "title": "Footer menu",
+    "description": "Menu of website's footer"
+  },
+  "staticSite": {
+    "title": "Miscellaneous",
+    "description": "Terms, policy, contact"
+  },
+  "paymentGateways": {
+    "title": "Payment gateways",
+    "description": "Config payment"
+  },
+  "logistics": {
+    "title": "Logistics",
+    "description": "Config shipment partners"
+  },
+  "labels": {
+    "title": "Labels",
+    "description": "Manage labels"
+  },
+  "categories": {
+    "title": "Manage categories",
+    "description": "Categories of Help center"
+  },
+  "regularQuestions": {
+    "title": "Help center",
+    "description": "Customers' regular questions"
+  },
+  "sizeGuides": {
+    "title": "Size guide",
+    "description": "Manage size guidance"
+  },
+  "listingFilterConfig": {
+    "title": "Listing filter config",
+    "description": "Configuration for filter section on product listing"
+  },
+  "homePageConfig": {
+    "title": "Home page config",
+    "description": "Configuration what to show on home page"
+  },
+  "keySettings": {
+    "title": "Key config",
+    "description": "Configuration for special api keys"
+  },
+  "serviceConfigs": {
+    "title": "Payment methods",
+    "description": "Configuration for {{site}}'s payment methods"
+  },
+  "cms": {
+    "title": "Static Page(coming soon)",
+    "description": "Manage Static Page"
+  }
+}
